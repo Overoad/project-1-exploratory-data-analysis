@@ -20,6 +20,8 @@ sm3 <- as.numeric(SubSetData$Sub_metering_3)
 
 
 png("plot4.png", width=480, height=480)
+
+## we display 4 graph in one creating a éxé grid of graphs
 par(mfrow = c(2, 2)) 
 
 plot(date, gap, type="l", xlab="", ylab="Global Active Power", cex=0.2)
